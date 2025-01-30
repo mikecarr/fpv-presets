@@ -1,0 +1,12 @@
+name: "high-power-fpv"
+author: "OpenIPC Dev"
+description: "Description of high-power-fpv."
+category: "FPV"
+sensor: ""  # Set sensor file if needed
+files:
+  wfb.yaml:
+    wireless.txpower: "1"
+    wireless.channel: "161"
+  majestic.yaml:
+    fpv.enabled: "false"
+    system.logLevel: "debug"
