@@ -15,8 +15,6 @@ Each preset is a self-contained folder under the `presets/` directory. It includ
 presets/
 ├── high_power_fpv/
 │   ├── preset-config.yaml
-│   ├── wfb.yaml
-│   ├── majestic.yaml
 │   ├── sensor/
 │       └── milos-sensor.bin
 ```
