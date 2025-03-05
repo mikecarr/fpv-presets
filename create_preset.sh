@@ -12,7 +12,7 @@ fi
 # Convert preset name to lowercase and replace spaces with underscores
 PRESET_NAME="$1"
 FOLDER_NAME=$(echo "$PRESET_NAME" | tr '[:upper:]' '[:lower:]' | tr ' ' '_')
-PRESET_DIR="./$FOLDER_NAME"
+PRESET_DIR="./presets/$FOLDER_NAME"
 
 # Create the preset directory
 mkdir -p "$PRESET_DIR/sensor"

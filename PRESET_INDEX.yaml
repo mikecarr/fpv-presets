@@ -1,7 +1,17 @@
 version: 1
-last_updated: '2025-03-05T16:33:58.643Z'
-total_presets: 1
+last_updated: '2025-03-05T17:06:25.066Z'
+total_presets: 2
 presets:
+  - name: default-mario-aio
+    path: presets/default-mario-aio
+    category: FPV
+    author: Your Name
+    description: Description of default-mario-aio.
+    tags: []
+    status: Draft
+    files:
+      - wfb.yaml
+      - majestic.yaml
   - name: high-power-fpv
     path: presets/high-power-fpv
     category: FPV
