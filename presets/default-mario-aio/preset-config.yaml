@@ -7,7 +7,7 @@ files:
   wfb.yaml:
     wireless.txpower: "1"
     wireless.channel: "161"
-  wfb.config:
+  wfb.conf:
     txpower: "1"
     channel: "100"
   majestic.yaml:
