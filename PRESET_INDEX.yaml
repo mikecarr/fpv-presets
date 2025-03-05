@@ -1,0 +1,14 @@
+version: 1
+last_updated: '2025-03-05T16:33:58.643Z'
+total_presets: 1
+presets:
+  - name: high-power-fpv
+    path: presets/high-power-fpv
+    category: FPV
+    author: OpenIPC Dev
+    description: Description of high-power-fpv.
+    tags: []
+    status: Draft
+    files:
+      - wfb.yaml
+      - majestic.yaml
