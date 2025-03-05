@@ -3,6 +3,8 @@ author: "OpenIPC Dev"
 description: "Description of high-power-fpv."
 category: "FPV"
 sensor: ""  # Set sensor file if needed
+status: "Experimental"
+tags: [ "high-power", "fpv" ]
 files:
   wfb.yaml:
     wireless.txpower: "20"

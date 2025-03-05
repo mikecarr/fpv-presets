@@ -1,16 +1,26 @@
 name: "default-mario-aio"
 author: "ViperZ28"
-description: "Description of default-mario-aio."
+description: "My settings for Mario"
 category: "FPV"
 sensor: ""  # Set sensor file if needed
-state: "Experimental"
+status: "Experimental"
+tags: ["mario", "aio"]
 files:
-  wfb.yaml:
-    wireless.txpower: "1"
-    wireless.channel: "161"
   wfb.conf:
     txpower: "1"
-    channel: "100"
+    channel: "153"
+    driver_txpower_override: "20"
+    stbc: "1"
+    ldpc: "1"
+    mcs_index: "1"
+    fec_k: "8"
+    fec_n: "12"
+
   majestic.yaml:
-    fpv.enabled: "false"
+    fpv.enabled: "true"
+    fpv.noiseLevel: "0"
     system.logLevel: "debug"
+    video0.codec: "h265"
+    video0.fps: "60"
+    video0.bitrate: "4096"
+    video0.size: "1920x1080"
