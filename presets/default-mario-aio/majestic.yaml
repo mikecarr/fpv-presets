@@ -1,8 +1,9 @@
 fpv:
-  enabled: false
+  enabled: true
 system:
   logLevel: debug
 video0:
+  codec: h264
   bitrate: 4096
 records:
   enabled: false
