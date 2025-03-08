@@ -1,6 +1,5 @@
-## Config Presets
+## Presets for configuring OpenIPC FPV systems
 
----
 
 ### 1. Folder Structure
 
