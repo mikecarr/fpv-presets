@@ -1,8 +1,8 @@
-# Config Presets
+## Config Presets
 
 ---
 
-## 1. Folder Structure
+### 1. Folder Structure
 
 Each preset is a self-contained folder under the `presets/` directory. It includes:
 
@@ -21,7 +21,7 @@ presets/
 
 ---
 
-## 2. Preset Definition (`preset-config.yaml`)
+### 2. Preset Definition (`preset-config.yaml`)
 
 The `preset-config.yaml` file defines:
 
@@ -46,7 +46,7 @@ files:
 
 ---
 
-## 3. Preset Loading
+### 3. Preset Loading
 
 - The application scans the `presets/` directory.
 - It parses each `preset-config.yaml` to create a `Preset` object.
@@ -54,7 +54,7 @@ files:
 
 ---
 
-## 4. Applying Presets
+### 4. Applying Presets
 
 When a preset is applied:
 
@@ -78,7 +78,7 @@ When a preset is applied:
 
 ---
 
-## 5. UI Workflow
+### 5. UI Workflow
 
 - **Preset List**:
     - Displays all available presets using a `ListBox`.
@@ -94,7 +94,7 @@ When a preset is applied:
 
 ---
 
-## Key Features
+### Key Features
 
 - **Dynamic Preset Management**:
     - Add/remove presets by simply editing the `presets/` directory.
