@@ -103,3 +103,6 @@ When a preset is applied:
     - Automatically transfers sensor binaries if specified.
 - **User-Friendly UI**:
     - Select a preset, view details, and apply it with a single click.
+
+### TODO
+* Add Github actions to run build.sh npm script

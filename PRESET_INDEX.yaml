@@ -1,18 +1,44 @@
 version: 1
-last_updated: '2025-03-05T22:54:37.634Z'
-total_presets: 2
+last_updated: '2025-03-15T17:16:10.821Z'
+total_presets: 4
 presets:
   - name: default-mario-aio
     path: presets/default-mario-aio
     category: FPV
-    author: ViperZ28
-    description: My settings for Mario
+    author: OpenIPC
+    description: Mario AIO FPV Preset
     tags:
       - mario
       - aio
-    status: Experimental
+    status: Official
     files:
       - wfb.conf
+      - telemetry.conf
+      - majestic.yaml
+  - name: default-runcam-wifilink
+    path: presets/default-runcam-wifilink
+    category: FPV
+    author: OpenIPC
+    description: Runcam Wifilink OpenIPC FPV Preset
+    tags:
+      - runcam
+      - wifilink
+    status: Official
+    files:
+      - wfb.conf
+      - telemetry.conf
+      - majestic.yaml
+  - name: default-ultrasight
+    path: presets/default-ultrasight
+    category: FPV
+    author: Your Name
+    description: Description of default-ultrasight.
+    tags:
+      - default-ultrasight
+    status: Community
+    files:
+      - wfb.conf
+      - telemetry.conf
       - majestic.yaml
   - name: high-power-fpv
     path: presets/high-power-fpv
