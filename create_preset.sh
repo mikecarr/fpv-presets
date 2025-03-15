@@ -24,46 +24,33 @@ author: "Your Name"
 description: "Description of $PRESET_NAME."
 category: "FPV"
 sensor: ""  # Set sensor file if needed
+status: "Community"
+tags: ["$PRESET_NAME"]
 files:
-  wfb.yaml:
-    wireless.txpower: "1"
-    wireless.channel: "161"
+  wfb.conf:
+    txpower: "1"
+    channel: "161"
+    driver_txpower_override: "20"
+    stbc: "1"
+    ldpc: "1"
+    mcs_index: "1"
+    fec_k: "8"
+    fec_n: "12"
+  telemetry.conf:
+    serial: /dev/ttyS2
+    # 2 for msposd
+    router: 0 
   majestic.yaml:
-    fpv.enabled: "false"
+    fpv.enabled: "true"
+    fpv.noiseLevel: "0"
     system.logLevel: "debug"
+    video0.codec: "h265"
+    video0.fps: "60"
+    video0.bitrate: "4096"
+    video0.size: "1920x1080"
+    
 EOF
 
-# Create default configuration files
-cat <<EOF > "$PRESET_DIR/wfb.yaml"
-wireless:
-  txpower: 1
-  region: 00
-  channel: 161
-  mode: HT20
-broadcast:
-  index: 1
-  fec_k: 8
-  fec_n: 12
-  link_id: 7669206
-telemetry:
-  index: 1
-  router: msposd
-  serial: /dev/ttyS2
-  osd_fps: 20
-  port_rx: 14551
-  port_tx: 14555
-EOF
-
-cat <<EOF > "$PRESET_DIR/majestic.yaml"
-fpv:
-  enabled: false
-system:
-  logLevel: debug
-video0:
-  bitrate: 4096
-records:
-  enabled: false
-EOF
 
 # Create an empty sensor file as a placeholder
 touch "$PRESET_DIR/sensor/.keep"

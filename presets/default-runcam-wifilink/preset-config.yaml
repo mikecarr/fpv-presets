@@ -1,17 +1,17 @@
-name: "default-mario-aio"
+name: "default-runcam-wifilink"
 author: "OpenIPC"
-description: "Mario AIO FPV Preset"
+description: "Runcam Wifilink OpenIPC FPV Preset"
 category: "FPV"
 sensor: ""  # Set sensor file if needed
 status: "Official"
-tags: ["mario", "aio"]
+tags: ["runcam", "wifilink"]
 files:
   wfb.conf:
     txpower: "1"
     channel: "161"
-    driver_txpower_override: "20"
-    stbc: "1"
-    ldpc: "1"
+    driver_txpower_override: "1"
+    stbc: "0"
+    ldpc: "0"
     mcs_index: "1"
     fec_k: "8"
     fec_n: "12"
@@ -19,6 +19,7 @@ files:
     serial: /dev/ttyS2
     # 2 for msposd
     router: 0 
+
   majestic.yaml:
     fpv.enabled: "true"
     fpv.noiseLevel: "0"
