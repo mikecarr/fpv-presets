@@ -1,10 +1,10 @@
-name: "default-ultrasight"
-author: "Your Name"
-description: "Description of default-ultrasight."
+name: "mike-was-here"
+author: "Miguel Coche"
+description: "Description of mike-was-here."
 category: "FPV"
 sensor: ""  # Set sensor file if needed
 status: "Community"
-tags: ["default-ultrasight"]
+tags: ["mike-was-here"]
 files:
   wfb.conf:
     txpower: "1"
