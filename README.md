@@ -145,7 +145,7 @@ files:
 
 ### 4. Applying Presets
 
-When a preset is applied:
+What hppens when a preset is applied:
 
 1. **Sensor File Transfer**:
     - If a sensor is specified, it is transferred using **SCP**:
@@ -195,4 +195,5 @@ When a preset is applied:
     - Select a preset, view details, and apply it with a single click.
 
 ### TODO
-* Add Github actions to run build.sh npm script
+* Add capability for users to add their own repo's
+* Save current settings to a file
