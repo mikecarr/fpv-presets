@@ -1,54 +1,16 @@
-version: 912dc06e2d4a82733b2871e6b28e2fa22b616377
-last_updated: '2025-03-16T00:58:58.319Z'
-total_presets: 4
+version: 84c9adaee128604b11d1671c87d0bfe09863c455
+last_updated: '2025-03-16T17:21:54.805Z'
+total_presets: 1
 presets:
-  - name: default-mario-aio
-    path: presets/default-mario-aio
+  - name: mike-was-here
+    path: presets/mike-was-here
     category: FPV
-    author: OpenIPC
-    description: Mario AIO FPV Preset
+    author: Miguel Coche
+    description: Description of mike-was-here.
     tags:
-      - mario
-      - aio
-    status: Official
-    files:
-      - wfb.conf
-      - telemetry.conf
-      - majestic.yaml
-  - name: default-runcam-wifilink
-    path: presets/default-runcam-wifilink
-    category: FPV
-    author: OpenIPC
-    description: Runcam Wifilink OpenIPC FPV Preset
-    tags:
-      - runcam
-      - wifilink
-    status: Official
-    files:
-      - wfb.conf
-      - telemetry.conf
-      - majestic.yaml
-  - name: default-ultrasight
-    path: presets/default-ultrasight
-    category: FPV
-    author: Your Name
-    description: Description of default-ultrasight.
-    tags:
-      - default-ultrasight
+      - mike-was-here
     status: Community
     files:
       - wfb.conf
       - telemetry.conf
-      - majestic.yaml
-  - name: high-power-fpv
-    path: presets/high-power-fpv
-    category: FPV
-    author: OpenIPC Dev
-    description: Description of high-power-fpv.
-    tags:
-      - high-power
-      - fpv
-    status: Experimental
-    files:
-      - wfb.yaml
       - majestic.yaml
