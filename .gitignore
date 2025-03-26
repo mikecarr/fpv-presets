@@ -56,3 +56,6 @@ eeprom.bin
 
 # NPM packages folder
 /node_modules
+
+
+PRESET_INDEX.yaml
