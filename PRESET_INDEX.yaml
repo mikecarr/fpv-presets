@@ -1,0 +1,17 @@
+version: 89df304f7ceb71a07f1f269f0a41897a30294fd1
+last_updated: '2025-03-26T22:30:11.713Z'
+total_presets: 1
+presets:
+  - name: mike-was-here
+    path: presets/mike-was-here
+    category: FPV
+    author: Miguel Coche
+    description: Description of mike-was-here.
+    tags:
+      - mike-was-here
+    status: Community
+    files:
+      - wfb.conf
+      - telemetry.conf
+      - majestic.yaml
+      - vtxmenu.ini
