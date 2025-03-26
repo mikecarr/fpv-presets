@@ -1,5 +1,5 @@
-version: 4d9a29d3856f8c3c3b025ffcb8c167f952af4aae
-last_updated: '2025-03-26T00:17:21.593Z'
+version: 89df304f7ceb71a07f1f269f0a41897a30294fd1
+last_updated: '2025-03-26T22:30:11.713Z'
 total_presets: 1
 presets:
   - name: mike-was-here
@@ -14,3 +14,4 @@ presets:
       - wfb.conf
       - telemetry.conf
       - majestic.yaml
+      - vtxmenu.ini
