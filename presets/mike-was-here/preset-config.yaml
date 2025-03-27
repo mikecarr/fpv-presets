@@ -29,5 +29,5 @@ files:
     video0.size: "1920x1080"
 additional_files:
   - vtxmenu.ini
-    
+  - txprofiles.conf
     
