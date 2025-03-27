@@ -27,6 +27,7 @@ files:
     video0.fps: "60"
     video0.bitrate: "4096"
     video0.size: "1920x1080"
-  vtxmenu.ini:
-    camera_path: "/etc/vtxmenu.ini"
+additional_files:
+  - vtxmenu.ini
+    
     
