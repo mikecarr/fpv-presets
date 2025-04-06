@@ -29,7 +29,7 @@ files:
     video0.bitrate: "4096"
     video0.size: "1280x720"
   
-external_files:
+additional_files:
   vtxmenu.ini
   txprofiles.conf
   alink_drone
