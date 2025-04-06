@@ -1,5 +1,5 @@
-version: ca723a92d67bd0b3fc68051fa80db49812126fb9
-last_updated: '2025-04-06T14:40:30.470Z'
+version: ee73200c1c40f71dfd864a55a29349de7b1570b8
+last_updated: '2025-04-06T15:13:40.321Z'
 total_presets: 5
 presets:
   - name: default-mario-aio
@@ -53,7 +53,6 @@ presets:
       - wfb.conf
       - telemetry.conf
       - majestic.yaml
-      - external_files
   - name: high-power-fpv
     path: presets/high-power-fpv
     category: FPV
