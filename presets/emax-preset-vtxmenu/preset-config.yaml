@@ -30,7 +30,7 @@ files:
     video0.size: "1280x720"
   
 additional_files:
-  vtxmenu.ini
-  txprofiles.conf
-  alink_drone
-  alink.conf
+  - vtxmenu.ini
+  - txprofiles.conf
+  - alink_drone
+  - alink.conf
