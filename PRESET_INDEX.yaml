@@ -1,6 +1,6 @@
-version: cbd63bce0f5a08ae5b4cf5ea6e1b7fed2a6552e7
-last_updated: '2025-04-06T00:59:56.936Z'
-total_presets: 4
+version: ca723a92d67bd0b3fc68051fa80db49812126fb9
+last_updated: '2025-04-06T14:40:30.470Z'
+total_presets: 5
 presets:
   - name: default-mario-aio
     path: presets/default-mario-aio
@@ -40,6 +40,20 @@ presets:
       - wfb.conf
       - telemetry.conf
       - majestic.yaml
+  - name: emax-preset
+    path: presets/emax-preset-vtxmenu
+    category: FPV
+    author: carabidule
+    description: msp menu, tx power mw, add alink in msp menu
+    tags:
+      - emax
+      - msp
+    status: Experimental
+    files:
+      - wfb.conf
+      - telemetry.conf
+      - majestic.yaml
+      - external_files
   - name: high-power-fpv
     path: presets/high-power-fpv
     category: FPV
