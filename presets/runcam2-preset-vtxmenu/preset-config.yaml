@@ -1,10 +1,10 @@
-name: "emax-preset"
+name: "runcam-preset"
 author: "carabidule"
 description: "msp menu, tx power mw, add alink in msp menu"
 category: "FPV"
 sensor: ""  # Set sensor file if needed
 status: "Experimental"
-tags: ["emax", "msp"]
+tags: ["runcam", "msp"]
 files:
   wfb.conf:
     txpower: "1"
@@ -16,7 +16,7 @@ files:
     fec_k: "8"
     fec_n: "12"
   telemetry.conf:
-    serial: /dev/ttyS0
+    serial: /dev/ttyS2
     # 2 for msposd
     router: 2 
 
