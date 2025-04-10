@@ -57,6 +57,10 @@ Adding a new preset to this repository is straightforward. Follow these steps to
        bitrate: 4
        wdr: false
        # Add all your camera configuration parameters here
+
+    # the files will be copied to etc, the must exist in your preset folder (there are protections against system files)
+    additional_files:
+      - vtxmenu.ini
    ```
 
 2. Make sure to include all relevant parameters for your preset in the `files` section
@@ -104,8 +108,7 @@ Each preset is a self-contained folder under the `presets/` directory. It includ
 presets/
 ├── high_power_fpv/
 │   ├── preset-config.yaml
-│   ├── sensor/
-│       └── milos-sensor.bin
+│   ├── vtxmenu.ini
 ```
 
 ---
