@@ -1,5 +1,5 @@
 name: "runcam-preset"
-author: "carabidule"
+author: "egirlfpv"
 description: "msp menu, tx power mw, add alink in msp menu"
 category: "FPV"
 sensor: ""  # Set sensor file if needed
