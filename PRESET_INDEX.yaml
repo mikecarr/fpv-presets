@@ -1,5 +1,5 @@
-version: 97fd514f9bb2410fb02a292bd82de577b9627b8f
-last_updated: '2025-04-10T14:45:43.276Z'
+version: a75643ed8011317989c8c709af53d565df705609
+last_updated: '2025-04-11T00:20:15.077Z'
 total_presets: 6
 presets:
   - name: default-mario-aio
@@ -65,7 +65,7 @@ presets:
     files:
       - wfb.yaml
       - majestic.yaml
-  - name: runcam-preset
+  - name: runcam2-preset-vtxmenu
     path: presets/runcam2-preset-vtxmenu
     category: FPV
     author: egirlfpv
@@ -78,4 +78,3 @@ presets:
       - wfb.conf
       - telemetry.conf
       - majestic.yaml
-      - external_files
