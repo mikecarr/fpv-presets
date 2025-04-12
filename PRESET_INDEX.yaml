@@ -1,5 +1,5 @@
-version: 90ee1dbb890457ace6aaa6c15695e9a47247d236
-last_updated: '2025-04-12T00:55:49.380Z'
+version: 86f5faf09b8edb629777d2d1bf2abb51391c5f2c
+last_updated: '2025-04-12T14:03:54.166Z'
 total_presets: 6
 presets:
   - name: default-mario-aio
@@ -12,6 +12,7 @@ presets:
       - aio
     status: Official
     files:
+      - wfb.yaml
       - wfb.conf
       - telemetry.conf
       - majestic.yaml
@@ -25,6 +26,7 @@ presets:
       - wifilink
     status: Official
     files:
+      - wfb.yaml
       - wfb.conf
       - telemetry.conf
       - majestic.yaml
@@ -37,6 +39,7 @@ presets:
       - default-ultrasight
     status: Community
     files:
+      - wfb.yaml
       - wfb.conf
       - telemetry.conf
       - majestic.yaml
