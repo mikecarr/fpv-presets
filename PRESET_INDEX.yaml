@@ -1,5 +1,5 @@
-version: a0725ce64d3bec201b47a02519bfb04032977198
-last_updated: '2025-04-17T23:02:03.090Z'
+version: 1e1fa86fdbd73d092f8a590d58d18bf10512d4b6
+last_updated: '2025-04-17T23:08:31.430Z'
 total_presets: 5
 presets:
   - name: default-mario-aio
@@ -164,4 +164,4 @@ presets:
     status: Community
     files: {}
     additional_files:
-      - '0'
+      - vtxmenu.ini
