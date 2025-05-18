@@ -1,10 +1,10 @@
 name: "sensor-pack"
 author: "ViperZ28"
 description: "Sensor pack"
-category: ["FPV", "Sensor"]
+category: "FPV"
 sensor: ""  # Set sensor file if needed
 status: "Community"
-tags: ["jumbo-packets"]
+tags: ["sensors"]
 files: {}
 
     
