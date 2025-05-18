@@ -2,7 +2,7 @@ name: "sensor-pack"
 author: "ViperZ28"
 description: "Sensor pack"
 category: "FPV"
-sensor: ""  # Set sensor file if needed
+sensor: "imx415_fpv.bin"  # Set sensor file if needed
 status: "Community"
 tags: ["sensors"]
 files: {}
