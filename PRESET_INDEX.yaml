@@ -1,6 +1,6 @@
-version: a4080ef74aea0d33fe5c9b0a1ed0c01c16b8ae3e
-last_updated: '2025-05-18T00:35:29.965Z'
-total_presets: 1
+version: ec0898b7cc2c30a9a1e863d1ef8f4064c4219126
+last_updated: '2025-05-18T17:08:03.546Z'
+total_presets: 2
 presets:
   - name: jumbo-packets
     path: presets/jumbo-packets
@@ -23,4 +23,16 @@ presets:
         telemetry.router: msposd
       majestic.yaml:
         video0.codec: h265
+    additional_files: []
+  - name: sensor-pack
+    path: presets/my-sensors
+    category:
+      - FPV
+      - Sensor
+    author: ViperZ28
+    description: Sensor pack
+    tags:
+      - jumbo-packets
+    status: Community
+    files: {}
     additional_files: []
