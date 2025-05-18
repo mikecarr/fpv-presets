@@ -1,5 +1,5 @@
-version: ec0898b7cc2c30a9a1e863d1ef8f4064c4219126
-last_updated: '2025-05-18T17:08:03.546Z'
+version: 1c75be25fb3d7ba6b881cc108ab51224ea2cd2db
+last_updated: '2025-05-18T17:22:07.956Z'
 total_presets: 2
 presets:
   - name: jumbo-packets
@@ -26,13 +26,11 @@ presets:
     additional_files: []
   - name: sensor-pack
     path: presets/my-sensors
-    category:
-      - FPV
-      - Sensor
+    category: FPV
     author: ViperZ28
     description: Sensor pack
     tags:
-      - jumbo-packets
+      - sensors
     status: Community
     files: {}
     additional_files: []
