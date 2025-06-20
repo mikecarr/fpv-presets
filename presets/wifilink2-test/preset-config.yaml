@@ -1,0 +1,36 @@
+name: "wifilink2-test"
+author: "ViperZ28"
+description: "Runcam wifilink2 test preset"
+category: "FPV"
+sensor: ""  # Set sensor file if needed
+status: "Community"
+tags: ["runcam","wifilink2"]
+files:
+  wfb.conf:
+    txpower: "1"
+    channel: "153"
+    driver_txpower_override: "35"
+    stbc: "1"
+    ldpc: "1"
+    mcs_index: "1"
+    fec_k: "8"
+    fec_n: "12"
+  telemetry.conf:
+    serial: /dev/ttyS2
+    # 2 for msposd
+    router: 2
+  majestic.yaml:
+    fpv.enabled: "true"
+    fpv.noiseLevel: "0"
+    video0.codec: "h265"
+    video0.fps: "60"
+    video0.bitrate: "4096"
+    video0.size: "1920x1080"
+    records.enabled: "true"
+    records.notime: "true"
+    audio.enabled: "true"
+    
+    
+additional_files:
+  - txprofiles.conf
+    
