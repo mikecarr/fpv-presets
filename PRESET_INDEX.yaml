@@ -1,5 +1,5 @@
-version: dfc4a6286257a740ef744de7ae106ed2fbfa1b0b
-last_updated: '2025-06-20T00:33:21.629Z'
+version: 081c187ee2017f1d52d5c05583c3448fd1b832d4
+last_updated: '2025-06-20T03:05:21.684Z'
 total_presets: 2
 presets:
   - name: jumbo-packets
@@ -24,13 +24,37 @@ presets:
       majestic.yaml:
         video0.codec: h265
     additional_files: []
-  - name: sensor-pack
-    path: presets/my-sensors
+  - name: wifilink2-test
+    path: presets/wifilink2-test
     category: FPV
     author: ViperZ28
-    description: Sensor pack
+    description: Runcam wifilink2 test preset
     tags:
-      - sensors
+      - runcam
+      - wifilink2
     status: Community
-    files: {}
-    additional_files: []
+    files:
+      wfb.conf:
+        txpower: '1'
+        channel: '153'
+        driver_txpower_override: '35'
+        stbc: '1'
+        ldpc: '1'
+        mcs_index: '1'
+        fec_k: '8'
+        fec_n: '12'
+      telemetry.conf:
+        serial: /dev/ttyS2
+        router: 2
+      majestic.yaml:
+        fpv.enabled: 'true'
+        fpv.noiseLevel: '0'
+        video0.codec: h265
+        video0.fps: '60'
+        video0.bitrate: '4096'
+        video0.size: 1920x1080
+        records.enabled: 'true'
+        records.notime: 'true'
+        audio.enabled: 'true'
+    additional_files:
+      - txprofiles.conf
