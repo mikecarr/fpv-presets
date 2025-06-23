@@ -1,5 +1,5 @@
-version: f1402639c1e2d82cc4b59fa3a7d61775beddedf0
-last_updated: '2025-06-20T03:12:42.938Z'
+version: 4662ced854a29da416540853640951fd8fda1e69
+last_updated: '2025-06-23T21:33:16.663Z'
 total_presets: 2
 presets:
   - name: jumbo-packets
@@ -53,8 +53,8 @@ presets:
         video0.fps: '60'
         video0.bitrate: '4096'
         video0.size: 1920x1080
-        records.enabled: 'true'
+        records.enabled: 'false'
         records.notime: 'true'
-        audio.enabled: 'true'
+        audio.enabled: 'false'
     additional_files:
       - txprofiles.conf
