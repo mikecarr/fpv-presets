@@ -25,9 +25,9 @@ files:
     video0.fps: "60"
     video0.bitrate: "4096"
     video0.size: "1920x1080"
-    records.enabled: "true"
+    records.enabled: "false"
     records.notime: "true"
-    audio.enabled: "true"
+    audio.enabled: "false"
     
     
 additional_files:
